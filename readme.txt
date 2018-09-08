@@ -11,8 +11,8 @@ A file called output.csv will be produced according to the specification in tran
 
 transform.csv describes where the cells will be in the output file.
 A cell id consists of the row number and the column letter, like 1A, 2F, or 37AAA.
-If the value of a cell in transform.csv is a valid cell id, the corresponding cell in output.csv will be replaced by the corresponding value in input.csv that is referenced by the cell id.
-If the value of a cell in transform.csv is NOT a valid cell id, the value will be copied correctly into output.csv. This can be useful if you would like to include a constant value, like a price or formula, that is not included in input.csv.
+If the value of a cell in transform.csv is a valid cell id, the corresponding cell in input.csv will be copied into output.csv.
+If the value of a cell in transform.csv is NOT a valid cell id, the value will be copied directly into output.csv. This can be useful if you would like to include in output.csv a constant value (such as a price or formula) that is not included in input.csv.
 
 THIS PROGRAM REQUIRES YOU TO HAVE PYTHON INSTALLED ON YOUR COMPUTER.
 IF YOU DO NOT HAVE PYTHON INSTALLED, PLEASE VISIT https://www.python.org/getit/
