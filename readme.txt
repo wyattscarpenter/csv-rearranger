@@ -6,7 +6,7 @@ A CSV file is a bunch of values, seperated by commas. It is commonly used as a f
 
 Csv-rearranger is a program that rearranges one csv (input.csv) file into another (output.csv), based on a specification csv file (transform.csv).
 
-You can use this program by putting put a csv file called "input.csv" into this folder, then running rearranger.py (click on it).
+You can use this program by putting a csv file called "input.csv" into this folder, then running rearranger.py (click on it).
 A file called output.csv will be produced according to the specification in transform.csv.
 
 transform.csv describes where the cells will be in the output file.
